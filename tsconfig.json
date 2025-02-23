@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "target": "ES2015",
+        "strict": true,
+        "alwaysStrict": true,
+        "skipLibCheck": true,
+        "moduleResolution": "node",
+    },
+}
