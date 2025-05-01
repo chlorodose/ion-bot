@@ -1,0 +1,7 @@
+/node_modules
+/.direnv
+/dist
+/target
+/src/proto/*.rs
+/src/proto/*.ts
+/Cargo.d.ts

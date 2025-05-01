@@ -1,0 +1,23 @@
+{
+    "main": {
+        "protocol": "https",
+        "hostname": "screeps.com",
+        "port": 443,
+        "path": "/",
+        "branch": "main"
+    },
+    "season": {
+        "protocol": "https",
+        "hostname": "screeps.com",
+        "port": 443,
+        "path": "/season",
+        "branch": "main"
+    },
+    "ptr": {
+        "protocol": "https",
+        "hostname": "screeps.com",
+        "port": 443,
+        "path": "/ptr",
+        "branch": "main"
+    }
+}

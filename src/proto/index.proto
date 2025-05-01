@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+message IWorldDiff {
+    // Game tick
+    uint64 tick = 1;
+}
+enum IActionType {
+    Destroy = 0;
+    Suicide = 1;
+}
+message IGameAction {
+    IActionType action = 1;
+    optional bytes id = 2;
+}
+
+message IGameActions {
+    repeated IGameAction actions = 1;
+}

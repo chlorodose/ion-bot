@@ -1,0 +1,43 @@
+{
+  "name": "ion-bot",
+  "version": "1.0.0",
+  "author": "chlorodose",
+  "license": "MIT",
+  "description": "My bot for game screeps",
+  "private": true,
+  "screepsBot": true,
+  "type": "module",
+  "devDependencies": {
+    "@babel/core": "^7.26.10",
+    "@babel/preset-env": "^7.26.9",
+    "@eslint/js": "^9.21.0",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@types/globalthis": "^1.0.4",
+    "@types/node": "^22.13.5",
+    "@types/screeps": "^3.3.8",
+    "babel-preset-minify": "^0.5.2",
+    "eslint": "^9.21.0",
+    "globals": "^16.0.0",
+    "magic-string": "^0.30.17",
+    "rolldown": "^1.0.0-beta.8-commit.1fd551c",
+    "rolldown-plugin-rust": "^0.1.0",
+    "rollup-plugin-screeps": "^1.0.1",
+    "ts-proto": "^2.7.0",
+    "tslib": "^2.8.1",
+    "typescript": "^5.7.3",
+    "typescript-eslint": "^8.24.1"
+  },
+  "scripts": {
+    "lint": "eslint \"src/**/*.ts\" --fix",
+    "dev": "rolldown -w -c",
+    "build": "rolldown -c",
+    "push": "DEST=ptr rolldown -c",
+    "push-main": "DEST=main rolldown -c"
+  },
+  "dependencies": {
+    "@bufbuild/protobuf": "^2.2.5",
+    "fastestsmallesttextencoderdecoder-encodeinto": "^1.0.22",
+    "globalthis": "^1.0.4",
+    "source-map": "^0.6.1"
+  }
+}

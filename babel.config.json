@@ -1,0 +1,20 @@
+{
+    "presets": [
+        [
+            "@babel/preset-env",
+            {
+                "targets": {
+                    "node": "8.9"
+                },
+                "bugfixes": true,
+                "modules": false
+            }
+        ],
+        [
+            "minify",
+            {
+                "mangle": false
+            }
+        ]
+    ]
+}
